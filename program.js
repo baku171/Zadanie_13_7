@@ -6,7 +6,7 @@ fs.readdir('./', 'utf-8', function(err, data){
         if (err) throw err;
         console.log('Zapisano');
         fs.readFile('./tekst.txt', 'utf-8', function(err, data) {
-            console.log('Dane po zapisie'.blue)
+            console.log('Dane po zapisie:\n');
             console.log(data);
         });
     });
