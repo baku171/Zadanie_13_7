@@ -1,1 +1,10 @@
-.gitignore,gruntfile.js,modules,node_modules,package.json,program.js,tekst.txt,tsd.json,typings,typings.json
+.git
+.gitignore
+gruntfile.js
+node_modules
+package.json
+program.js
+tekst.txt
+tsd.json
+typings
+typings.json
